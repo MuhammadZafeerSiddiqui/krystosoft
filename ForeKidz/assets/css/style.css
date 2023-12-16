@@ -1,0 +1,45 @@
+.header_area .navbar-nav li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+header.header_area {
+    box-shadow: 1px 1px 1px #ddd;
+    padding: 10px 0px;
+}
+
+.class-for-mobile{
+	display: none;
+}
+#sidebar ul {
+    list-style: none;
+}
+.portfolio-row a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ .class-for-mobile{
+	display: block;
+  }
+	.navbar span.navbar-toggler-icon {
+    padding-right: 40px;
+    }
+	.navbar span.navbar-toggler-icon i {
+    font-size: 38px;
+    color: #000;
+   }
+
+}
